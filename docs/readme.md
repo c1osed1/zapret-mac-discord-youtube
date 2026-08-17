@@ -3,8 +3,8 @@
 
 # Форк zapret под MacOS
 
-Использует `nfqws` через `utun` и BPF. Управление через трей.  
-**Universal, MacOS 14+**
+Использует `nfqws` через `utun` и BPF. Управление через трей и окно в стиле Системных настроек.  
+**Universal, MacOS 14+** (на macOS 26 — системный Liquid Glass)
 
 Стратегии перенесены как есть из [сборки Windows](https://github.com/Flowseal/zapret-discord-youtube/). GameFilter вырезан. В текущей версии стратегии захардкожены, переключение IPSet/изменение списков требует перезапуска.
 
