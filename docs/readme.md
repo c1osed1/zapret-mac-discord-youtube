@@ -7,14 +7,14 @@
 Использует `nfqws` через `utun` и BPF. Управление через трей и окно в стиле Системных настроек.  
 **Universal, MacOS 14+** (на macOS 26 — системный Liquid Glass)
 
-Стратегии перенесены как есть из [сборки Windows](https://github.com/Flowseal/zapret-discord-youtube/). GameFilter вырезан. В текущей версии стратегии захардкожены, переключение IPSet/изменение списков требует перезапуска.
+Стратегии перенесены как есть из [сборки Windows](https://github.com/c1osed1/zapret-discord-youtube/). GameFilter вырезан. В текущей версии стратегии захардкожены, переключение IPSet/изменение списков требует перезапуска.
 
 ## Установка
 
 - Выключите другие VPN'ы с туннелированием
 - Установите DNS отличный от стандартного (или настройте его на роутере), например на Google (8.8.8.8/8.8.4.4) или Cloudflare (1.1.1.1/1.0.0.1)
   - Более лучшим решением будет установить DNS over HTTPS через профиль. Например на Google Public DNS отсюда - https://github.com/paulmillr/encrypted-dns
-- Скачайте `ZapretMac-macOS-universal.zip` из Assets с последнего релиза отсюда: https://github.com/Flowseal/zapret-mac-discord-youtube/releases
+- Скачайте `ZapretMac-macOS-universal.zip` из Assets с последнего релиза отсюда: https://github.com/c1osed1/zapret-mac-discord-youtube/releases
 - Откройте скачанный файл, в появившемся предупреждении нажмите **Done** или **OK**
   - В новых версиях macOS можно разрешить открытие приложения через контекстное меню (ПКМ по файлу) -> **Open** (**Открыть**) -> **Open** (**Открыть**). Если это не ваш случай, то воспользуйтесь инструкцией ниже
   - Зайдите в **System Settings** (**Системные настройки**) -> **Privacy & Security** (**Конфиденциальность и безопасность**) -> пролистайте вниз -> нажмите кнопку **Open Anyway** (**Подтвердить вход**)
@@ -22,7 +22,7 @@
 
 ### Списки
 
-При первом запуске меню создаёт папку `~/Library/Application Support/ZapretMac/lists`. Исходные `list-general.txt`, `list-google.txt`, `list-exclude.txt`, `ipset-exclude.txt` и загруженный `ipset-all.txt` взяты из из [сборки Windows](https://github.com/Flowseal/zapret-discord-youtube/).
+При первом запуске меню создаёт папку `~/Library/Application Support/ZapretMac/lists`. Исходные `list-general.txt`, `list-google.txt`, `list-exclude.txt`, `ipset-exclude.txt` и загруженный `ipset-all.txt` взяты из из [сборки Windows](https://github.com/c1osed1/zapret-discord-youtube/).
 
 Пользовательские домены добавляются в `list-general-user.txt`. Поддомены учитываются автоматически. Исключения доменов добавляются в `list-exclude-user.txt`, исключения IP и подсетей — в `ipset-exclude-user.txt`.
 
