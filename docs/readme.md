@@ -2,6 +2,7 @@
 ---
 
 # Форк zapret под MacOS
+<img width="883" height="732" alt="Screenshot 2026-08-17 at 16 23 24" src="https://github.com/user-attachments/assets/0b4a24af-adb5-4587-8c4b-be7451c9b360" />
 
 Использует `nfqws` через `utun` и BPF. Управление через трей и окно в стиле Системных настроек.  
 **Universal, MacOS 14+** (на macOS 26 — системный Liquid Glass)
